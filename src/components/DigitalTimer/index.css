@@ -1,0 +1,83 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  background-image: linear-gradient(to right, #ffffff, #defafe);
+  min-height: 100vh;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.display-time-pause-play {
+  display: flex;
+  justify-content: space-between;
+}
+.display-timer-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  height: 450px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.display-timer {
+  background-color: #ffffff;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  align-self: center;
+}
+.pause-play-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pause-play-img {
+  display: flex;
+  flex-direction: row;
+  margin-left: 12px;
+}
+.image {
+  height: 38px;
+  width: 38px;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  margin-left: 12px;
+  cursor: pointer;
+}
+.para {
+  text-align: center;
+  font-family: 'Roboto';
+  margin-left: 12px;
+}
+.inc-dec {
+  display: flex;
+}
+.para1 {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 25px;
+  margin-left: 12px;
+  height: 40px;
+  width: 80px;
+  border-radius: 3px;
+  background-image: linear-gradient(to right, #cffcf1, #00d9f5);
+}
+.btn1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  margin-left: 12px;
+  font-size: 30px;
+  cursor: pointer;
+}
